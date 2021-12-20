@@ -1,0 +1,26 @@
+body{
+    background-color: blue;
+}
+.imgBox{
+    background-image: url(s3.jpg);
+    background-size:cover ;
+    top:5px;
+    left:5px;
+    position: relative;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+}
+.whiteBox{
+    height: 155px;
+    width: 155px;
+    background-color: white;
+    margin: 10px;
+    display: inline-block;
+}
+.hold{
+    border:2px dotted red;
+}
+.hide{
+    display:none;
+}
